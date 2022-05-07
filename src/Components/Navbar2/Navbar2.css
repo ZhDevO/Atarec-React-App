@@ -1,0 +1,118 @@
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 13px;
+    /* justify-content: center; */
+    background-color: #36517e;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+}
+.nav-links li a {
+    margin: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.nav-links li a.active {
+    color : rgba(31, 178, 236, 0.755);
+}
+.nav-links li a:hover {
+    color : rgba(31, 178, 236, 0.755);
+}
+#btnna2 {
+    margin-top: 1px;
+    text-align: center;
+    border: 2px solid #63add4;
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.01cm;
+    padding-top: 6px;
+}
+#btnna2:hover {
+    background-color: rgba(31, 178, 236, 0.755);
+}
+.logo {
+    padding-top: 8px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1cm;
+    margin-left: 10rem;
+    color: white;
+}
+.MobileNavigation {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    
+    .nav-links {
+        padding-right: 0rem;
+    }
+    #btnna2 {
+        border-radius: 50px;
+        width: 110px;
+        letter-spacing: 0cm;
+
+    }
+    .nav-links li a {
+        margin: 0.25rem;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .logo {
+        letter-spacing: 0.05cm;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+
+    }
+    .nav-links li a:hover {
+        color : rgba(31, 178, 236, 0.755);
+        border-bottom: 3px solid rgba(31, 178, 236, 0.755);
+    }
+    .Navigation {
+        display: none;
+    }
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+        }
+    .MobileNavigation .Hamburger {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background-color: #181818;
+        border-top: 2px solid #63add4;
+        padding: 25px;
+    }
+
+    
+
+
+}

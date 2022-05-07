@@ -1,0 +1,125 @@
+.cocard1 {
+    margin-top: 3rem;
+    border: 1px solid white;
+    width: 600px;
+    padding: 2rem 2rem;
+    background-color: white;
+    height: 300px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.picmodi {
+    border-radius: 50%;
+}
+.tahainfo {
+    float: right;
+}
+.borderinfo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    width: 100px;
+}
+.linkedinbackground {
+    border: 1px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e4e5ec;
+    font-size: 3rem;
+    position: relative;
+}
+.linkedinbackground:hover {
+    background-color: rgb(31, 178, 236);
+    color: white;
+}
+.linkedin {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+.picmodi2 {
+    width: 265px;
+    border-radius: 50%;
+}
+.cocard2 {
+    margin-top: 3rem;
+    border: 1px solid white;
+    width: 600px;
+    padding: 2rem 2rem;
+    background-color: white;
+    height: 300px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.oussamainfo {
+    float: right;
+}
+.gridinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cocard1:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.1);
+    z-index: 2;
+}
+.cocard2:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.1);
+    z-index: 2;
+}
+.team {
+    background-color: #f4f5fa;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 990px) {
+    .gridinfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .picmodi {
+        border-radius: 50%;
+        width: 120px;
+    }
+    .cocard1:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.05);
+        z-index: 2;
+    }
+    .cocard1 {
+        margin-top: 3rem;
+        border: 1px solid white;
+        width: 450px;
+        padding: 2rem 2rem;
+        background-color: white;
+        height: 180px;
+        box-shadow: 0 0 40px 20px rgba(0, 0, 0, .1);
+        cursor: pointer;
+    }
+    .picmodi2 {
+        width: 125px;
+        border-radius: 50%;
+    }
+    .oussamainfo {
+        float: right;
+        padding-right: 50px;
+    }
+    .cocard2:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.05);
+        z-index: 2;
+    }
+    .cocard2 {
+        margin-top: 3rem;
+        border: 1px solid white;
+        width: 450px;
+        padding: 2rem 2rem;
+        background-color: white;
+        height: 180px;
+        box-shadow: 0 0 40px 20px rgba(0, 0, 0, .1);
+        cursor: pointer;
+    }
+}

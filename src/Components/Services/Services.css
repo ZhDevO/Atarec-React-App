@@ -1,0 +1,96 @@
+.services {
+    background-color: #f4f5fa;
+}
+.card1,.card2,.card3,.card4,.card5 {
+    margin-top: 3rem;
+    border: 1px solid white;
+    width: 220px;
+    padding: 2rem 2rem;
+    background-color: white;
+    height: 450px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.card1:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.3);
+    z-index: 2;
+}
+.card2:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.3);
+    z-index: 2;
+}
+.card3:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.3);
+    z-index: 2;
+}
+.card4:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.3);
+    z-index: 2;
+}
+.card5:hover {
+    transition: all 2s ease-in-out;
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.card1 h3 {
+    margin-bottom: 2rem;
+}
+.aqua {
+    color: rgb(31, 178, 236);
+    font-size: 1.4rem;
+}
+.grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.section-title {
+    padding-top: 2rem;
+}
+
+@media (max-width: 990px) {
+    .grid-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card1,.card2,.card3,.card4,.card5 {
+        margin-top: 3rem;
+        border: 1px solid white;
+        width: 450px;
+        padding: 2rem 2rem;
+        background-color: white;
+        height: 250px;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+        cursor: pointer;
+    }
+    .card1:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .card2:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .card3:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .card4:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .card5:hover {
+        transition: all 2s ease-in-out;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+}

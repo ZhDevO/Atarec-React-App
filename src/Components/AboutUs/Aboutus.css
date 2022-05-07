@@ -1,0 +1,40 @@
+.about {
+    padding-bottom: 2rem;
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    border-bottom: 5px solid rgb(31, 178, 236);
+    margin: auto 450px;
+    cursor: pointer;
+    border-spacing:5px;
+    min-width: 55px;
+    min-height: 55px;
+}
+.section-title h2:hover {
+    border-bottom: 5px solid rgb(31, 178, 236);
+    margin: auto 350px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.content {
+    margin-top: 3rem;
+}
+li {
+    list-style: none;
+}
+li > a {
+    text-decoration: none;
+}
+
+@media (max-width: 990px) {
+    .section-title h2 {
+        border-bottom: 5px solid rgb(31, 178, 236);
+        margin: auto 150px;
+    }
+    .section-title h2:hover {
+        border-bottom: 5px solid rgb(31, 178, 236);
+        margin: auto 100px;
+    }
+}

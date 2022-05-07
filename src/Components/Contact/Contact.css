@@ -1,0 +1,36 @@
+.contact {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.address {
+    display: flex;
+}
+.locationlogo {
+    margin-right: 1rem;
+}
+.email {
+    display: flex;
+}
+.emaillogo {
+    margin-right: 1rem;
+}
+.info {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#contact-section {
+    margin-top: 4rem;
+    border-top: 3px solid rgb(31, 178, 236);
+    border-bottom: 3px solid rgb(31, 178, 236);
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, .1);
+}
+.mapah {
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 990px) {
+    .mapah {
+        width: 400px;
+        height: 200px;
+    }
+}
